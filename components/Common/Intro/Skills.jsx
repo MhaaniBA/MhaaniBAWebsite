@@ -7,7 +7,7 @@ const Skills = () => {
         <span className='text-Snow text-xs font-bold bg-gradient-to-bl'>Experties and Competencies</span>
         <div className='flex flex-col space-y-4'>
           {SKILLS.map((skill, index) => {
-            return <LinearBar key={index} title={skill.title} percent={skill.level} bgColor='bg-Green' />;
+            return <LinearBar key={index} title={skill.title} percent={skill.level} bgColor='bg-Blue' />;
           })}
         </div>
       </div>

@@ -3,10 +3,10 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: 'Open University of Srilanka',
+                degree: 'BSE,Honce Undergraduate',
+                detail: "Bachelor'of Software Engineering from Open University of Srilanka.",
+                year: 'Reading'
             },
     //         {
     //             id: 1,

@@ -1,6 +1,6 @@
-export const NAME = 'Musaitha Haani Baheer Ahemad';
+export const NAME = 'Musaitha Haani Basheer Ahemad';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `Frontend Developer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
   Residence: 'Srilanka',
@@ -10,7 +10,7 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'Full Stack Developer',
+    title: 'Frontend Developer',
     level: '50%',
   },
   {

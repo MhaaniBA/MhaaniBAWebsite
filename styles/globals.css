@@ -4,7 +4,7 @@
 
 body {
     /* transition: all; */
-    background-color: #99e2b4 !important;
+    background-color: #c8eafa   !important;
     /* padding: 0.8rem; */
     /* transition: width 5s ease-in .2s; */
     overflow: hidden;
@@ -17,13 +17,13 @@ body {
       @apply transition-all delay-200 !duration-1000;
     }
     .card_stylings {
-      @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Green/10 hover:to-indigo-600/5;
+      @apply bg-EveningBlack/95 rounded-xl hover:bg-gradient-to-br hover:from-Blue/10 hover:to-indigo-600/5;
     }
     .button {
-      @apply bg-Green hover:bg-Green/60 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
+      @apply bg-Blue hover:bg-Blue/60 transition rounded-xl text-MidNightBlack text-base font-medium  px-8 py-2;
     }
     .input_stylings {
-      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Green block w-full pl-10 p-2.5;
+      @apply bg-DeepNightBlack text-SilverGray text-sm rounded-lg outline-none focus:ring-1 focus:ring-Blue block w-full pl-10 p-2.5;
     }
 
     @font-face {
@@ -73,13 +73,13 @@ body {
         
         /* Handle */
         ::-webkit-scrollbar-thumb {
-            background: #1fdf64; 
+            background: #1677ff; 
             border-radius: 8px;
         }
         
         /* Handle on hover */
         ::-webkit-scrollbar-thumb:hover {
-            background: #1fdf64; 
+            background: #1677ff; 
         }
     }
 
@@ -115,7 +115,7 @@ body {
     height: 200px;
   }
   .boxShodow:hover{
-    box-shadow: rgba(31,223,100,1) 0px 2px 5px -1px, rgba(31,223,100,1) 0px 1px 3px -1px;
+    box-shadow: rgb(65, 105, 225) 0px 2px 5px -1px, rgb(65, 105, 225) 0px 1px 3px -1px;
     /* -webkit-box-shadow: 0px 0px 11px -3px rgba(31,223,100,1);
     -moz-box-shadow: 0px 0px 11px -3px rgba(31,223,100,1);
     box-shadow: 0px 0px 11px -3px rgba(31,223,100,1); */
@@ -124,11 +124,11 @@ body {
 
 
 .userIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #4169E1; /* Change the icon color when the input is focused */
 }
 .mailIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #4169E1; /* Change the icon color when the input is focused */
 }
 .textIcon:focus-within #icon {
-  color: #1fdf64; /* Change the icon color when the input is focused */
+  color: #4169E1; /* Change the icon color when the input is focused */
 }

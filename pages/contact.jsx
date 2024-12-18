@@ -114,7 +114,7 @@ const Contact = () => {
                 onCancel={() => setIsOpen(false)}
             >
                 <div className='flex flex-col items-center justify-center'>
-                    <h1 className='text-Green font-bold text-2xl'>In Progress</h1>
+                    <h1 className='text-Blue font-bold text-2xl'>In Progress</h1>
                     <a className='underline text-Snow' target='_blank' href='https://github.com/MhaaniBA/MhaaniBAWebsite'>Be the one to integrate this!</a>
                 </div>
             </Modal>

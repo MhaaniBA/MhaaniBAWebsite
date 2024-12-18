@@ -13,7 +13,7 @@ export default function Layout({ children }) {
       <div className='lg:hidden'>
         <div className=' bg-DeepNightBlack text-LightGray w-full h-10 flex items-center justify-between px-2 lg:hidden relative'>
           <div className='icon flex items-center gap-x-2' onClick={(e) => setIntro(!intro)}>
-            <span className='icon border-2 text-Green border-Green p-1 text-sm rounded-lg'>
+            <span className='icon border-2 text-Blue border-Blue p-1 text-sm rounded-lg'>
               <SlOptionsVertical />
             </span>
             <div className='text-Snow absolute -right-1 -bottom-1'>
@@ -21,7 +21,7 @@ export default function Layout({ children }) {
             </div>
           </div>
           <div className='icon flex items-center gap-x-2' onClick={(e) => setIsOpen(!isOpen)}>
-            <span className='icon border-2 text-Green border-Green p-1 text-sm rounded-lg'>
+            <span className='icon border-2 text-Blue border-Blue p-1 text-sm rounded-lg'>
               {' '}
               <FaBars />
             </span>
@@ -45,8 +45,8 @@ export default function Layout({ children }) {
         {/* right side */}
         {/* right side */}
         <div className={`hidden lg:block absolute lg:w-20 lg:relative bg-DeepNightBlack shadow-2xl rounded-xl overflow-hidden`}>
-          <div onClick={(e) => setIsOpen(!isOpen)} className='bg-MidNightBlack text-Green hidden lg:flex items-center h-16 justify-center text-2xl '>
-            <span className='icon border-2 border-Green p-2 rounded-xl'>
+          <div onClick={(e) => setIsOpen(!isOpen)} className='bg-MidNightBlack text-Blue hidden lg:flex items-center h-16 justify-center text-2xl '>
+            <span className='icon border-2 border-Blue p-2 rounded-xl'>
               {' '}
               <FaBars />
             </span>
